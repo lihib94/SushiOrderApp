@@ -1,0 +1,51 @@
+.summery{
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: auto;
+    background-color: #383838;
+    color: white;
+    border-radius: 14px;
+    box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+}
+
+.headLine {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.summeryLine {
+    margin: auto;
+    padding: 1em;
+}
+.summeryLineContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items:center;
+    width: 70%;
+    /* max-width: 80%; */
+    padding-bottom: 1em;
+}
+
+   @media only screen and (max-width: 1000px) {
+    .headLine {
+        padding: 0.4rem;
+        font-size: 1.5rem
+    }
+  } 
+  @media only screen and (max-width: 770px) {
+    
+    .summeryLineContainer{
+        width:95%;
+    }
+  } 
+  @media only screen and (max-width: 450px) {
+      .summery{
+          width: 70%;
+      }
+  } 

@@ -1,0 +1,21 @@
+/* .yourCart{
+    border-bottom: 2px solid #ec640991;
+    width:fit-content
+} */
+.total{
+font-size: 1.1rem;
+font-weight: bold;
+padding-top: .3em;
+color:rgb(105, 52, 52);
+}
+.yourCart{
+    color:rgb(105, 52, 52);
+}
+.CartCard{
+    width: 30%
+}
+@media only screen and (max-width: 1000px) {
+    .CartCard{
+        width: 80%
+    }
+  } 

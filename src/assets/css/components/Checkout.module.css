@@ -1,0 +1,35 @@
+/* .checkoutHeadline{
+    border-bottom: 2px solid #ec640991;
+    width:fit-content
+} */
+.orderBtn{
+    all:unset;
+    width: 40%;
+    padding: 0.3em;
+    text-align: center;
+    border: 1px solid #6b2901b7;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 1em;
+    background-color: #ec640991;
+    color:white;
+  }
+  .orderBtn:hover{
+    background-color: #6b2901b7;
+  }
+  .checkoutCard{
+    width: 30%;
+  }
+.checkoutHeadline{
+  color:rgb(105, 52, 52);
+}
+form h5{
+  padding-bottom: 0.5em;
+  color:rgb(105, 52, 52);
+}
+
+  @media only screen and (max-width: 1000px) {
+    .checkoutCard{
+      width: 80%;
+    }
+  } 

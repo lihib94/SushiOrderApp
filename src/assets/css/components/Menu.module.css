@@ -1,0 +1,44 @@
+.menu{
+    /* padding: 1rem; */
+    box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.808);
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(50px);
+    margin-bottom: 7rem;
+    
+}
+
+.menu h1{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 40px;
+    color: #6b2901b7;
+    width: 3.3em;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+}
+.menu .dishId{
+    margin-top:2rem;
+    margin-bottom:1rem;
+    font-size: 27px;
+    color: #6b2901b7;
+    /* border-bottom-style: solid;
+    border-bottom-width: 1px; */
+  
+    text-align: center;
+    padding-bottom: 0.7rem;
+}
+.mealsContainer{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    height:auto;
+    margin: 1rem
+}
