@@ -79,21 +79,7 @@
  
  width:10%
 }  
-.ordered{
-  border : 3px solid #ec640991;
-  width: 50%;
-  border-radius: 20px;
-  padding: 1em;
-  /* margin-bottom: 1em; */
-  font-size: 1.3rem;
-  font-weight: bold;
-  animation: bump 300ms ease-out;
-}
-.orderedContainer{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2rem;
-}
+
 @keyframes bump {
   0% {
     transform: scale(1);

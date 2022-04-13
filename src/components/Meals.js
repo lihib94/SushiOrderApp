@@ -2,10 +2,12 @@ import MealItem from "./MealItem";
 
 //meals are all meals from same salads || soups || sushi || nigiri
 //meals containes several "MealItem" 
-const Meals = ({selectedMeal}) => {
+const Meals = ({selectedMeal,myRef}) => {
+
     const meals = selectedMeal ? Object.values(selectedMeal) : []
 return ( 
-    selectedMeal && <ul style={{margin: '1rem'}} >
+    
+    selectedMeal && <ul style={{margin: '1rem'}} ref={myRef}>
     
      {meals.map((meal) => (
             <MealItem

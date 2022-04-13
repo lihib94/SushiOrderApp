@@ -45,7 +45,7 @@ return (
                             />
                         ))}
         </ul>
-        { totalQuantity === 0 ?  <div> Your cart is currently empty, add some dishes before your stomach will get angry </div> : " "}
+        { totalQuantity === 0 ?  <div className={classes.emptyCart}> Your cart is currently empty, add some dishes before your stomach will get angry </div> : " "}
         
     </div>
 );  

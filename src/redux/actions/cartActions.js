@@ -8,8 +8,8 @@ export const getCart = () => {
 }
 //ADD product to cart
 export const addProduct = (product, quantity) => {
-    console.log(quantity)
     const {products, totalAmount} = store.getState().cart
+    // console.log(products)
     const existingIndex = products.findIndex((item) => item.id === product.id);
     const existingCartItem = products[existingIndex];
     let updatedCart
@@ -17,12 +17,9 @@ export const addProduct = (product, quantity) => {
     let addQuantity = quantity
     if(existingCartItem) {
         updatedTotalAmount = totalAmount  + quantity * product.price
-        console.log({'product.quantity':product.quantity})
         const item = {...product, quantity: products[existingIndex].quantity + quantity, amount: product.price*quantity}
-        console.log(item)
         products[existingIndex] = item
         updatedCart = [...products]
-        console.log({'updatedCart':updatedCart})
     }
     else {
         updatedTotalAmount = totalAmount + quantity * product.price

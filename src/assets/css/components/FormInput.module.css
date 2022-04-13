@@ -25,6 +25,7 @@
     /* padding: 3px; */
     color: #ec6409;
     display: none;
+    margin-bottom: 1em;
 }
 
 .formInput input:invalid[focused="true"]{

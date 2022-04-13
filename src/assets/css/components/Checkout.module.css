@@ -14,6 +14,11 @@
     background-color: #ec640991;
     color:white;
   }
+.cantOrder{
+  padding-top: 1em;
+  color:rgb(105, 52, 52);;
+  font-weight: bold;
+}
   .orderBtn:hover{
     background-color: #6b2901b7;
   }
@@ -27,6 +32,17 @@ form h5{
   padding-bottom: 0.5em;
   color:rgb(105, 52, 52);
 }
+.ordered{
+  border : 3px solid #ec640991;
+  width: 70%;
+  border-radius: 20px;
+  padding: 1em;
+  font-size: 1rem;
+  font-weight: bold;
+  animation: bump 300ms ease-out;
+  margin-top: 1em;
+} 
+
 
   @media only screen and (max-width: 1000px) {
     .checkoutCard{

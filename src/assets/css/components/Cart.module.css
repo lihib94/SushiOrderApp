@@ -2,6 +2,10 @@
     border-bottom: 2px solid #ec640991;
     width:fit-content
 } */
+.emptyCart{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 .total{
 font-size: 1.1rem;
 font-weight: bold;
